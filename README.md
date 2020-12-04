@@ -2,7 +2,6 @@
 
 A simple swift for your iOS view controllers to easily show a loading HUD with or without a loading message
 
-[![CI Status](https://img.shields.io/travis/marcosiino/MSLoadingHUD.svg?style=flat)](https://travis-ci.org/Marco Siino/MSLoadingHUD)
 [![Version](https://img.shields.io/cocoapods/v/MSLoadingHUD.svg?style=flat)](https://cocoapods.org/pods/MSLoadingHUD)
 [![License](https://img.shields.io/cocoapods/l/MSLoadingHUD.svg?style=flat)](https://cocoapods.org/pods/MSLoadingHUD)
 [![Platform](https://img.shields.io/cocoapods/p/MSLoadingHUD.svg?style=flat)](https://cocoapods.org/pods/MSLoadingHUD)
@@ -21,6 +20,18 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'MSLoadingHUD'
 ```
+
+## Usage
+
+Add the Loadable trait to your view controller by declaring its conformance to the Loadable protocol:
+
+```swift
+class MyViewController: UIViewController, Loadable { ...
+```
+
+Then you can use the showLoadingHUD and hideLoadingHUD methods to show and hide the loading HUD. The first method accepts an optional loadingMessage argument, which if it's specified, a message will be shown below the loading indicator.
+
+That's it!
 
 ## Author
 
