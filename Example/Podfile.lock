@@ -1,0 +1,16 @@
+PODS:
+  - MSLoadingHUD (0.1.0)
+
+DEPENDENCIES:
+  - MSLoadingHUD (from `../`)
+
+EXTERNAL SOURCES:
+  MSLoadingHUD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSLoadingHUD: 6e7ad9d712dd230af6c0c810de37a3aa1498051c
+
+PODFILE CHECKSUM: 82e5c539e109c61b92641adf22df89de082ad1e8
+
+COCOAPODS: 1.10.0
