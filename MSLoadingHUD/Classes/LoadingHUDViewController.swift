@@ -47,7 +47,7 @@ class LoadingHUDViewController: UIViewController {
         //Rounded corners container view
         let activityIndicatorContainer = UIView(frame: CGRect.zero)
         activityIndicatorContainer.translatesAutoresizingMaskIntoConstraints = false
-        activityIndicatorContainer.backgroundColor = backgroundColor.withAlphaComponent(0.65)
+        activityIndicatorContainer.backgroundColor = backgroundColor.withAlphaComponent(0.85)
         activityIndicatorContainer.layer.masksToBounds = true
         activityIndicatorContainer.layer.cornerRadius = 10.0
         view.addSubview(activityIndicatorContainer)
