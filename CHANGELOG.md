@@ -1,6 +1,6 @@
 # Changelog
 
-## Next version
+## 0.2.0 - 2020-12-04
 
 ### Added
 - Added Swift Package Manager compatibility
