@@ -1,6 +1,8 @@
 # MSLoadingHUD
 
-A simple swift for your iOS view controllers to easily show a loading HUD with or without a loading message
+A simple swift for your iOS view controllers to easily show a loading HUD with or without a loading message.
+
+Please note that MSLoadingHUD uses semantic versioning.
 
 [![Version](https://img.shields.io/cocoapods/v/MSLoadingHUD.svg?style=flat)](https://cocoapods.org/pods/MSLoadingHUD)
 [![License](https://img.shields.io/cocoapods/l/MSLoadingHUD.svg?style=flat)](https://cocoapods.org/pods/MSLoadingHUD)

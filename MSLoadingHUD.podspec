@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MSLoadingHUD'
   s.version          = '0.1.0'
-  s.summary          = 'A simple, easy to use loading HUD'
+  s.summary          = 'A simple and easy to use loading HUD'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,13 +21,13 @@ Pod::Spec.new do |s|
 A simple swift for your iOS view controllers to easily show a loading HUD with or without a loading message.
                        DESC
 
-  s.homepage         = 'https://github.com/Marco Siino/MSLoadingHUD'
+  s.homepage         = 'https://github.com/marcosiino/MSLoadingHUD'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Marco Siino' => 'siino.marco@gmail.com' }
   s.source           = { :git => 'https://github.com/marcosiino/MSLoadingHUD.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
-
+  s.swift_version = '5.2'
   s.source_files = 'MSLoadingHUD/Classes/**/*'
   
   s.frameworks = 'UIKit'
