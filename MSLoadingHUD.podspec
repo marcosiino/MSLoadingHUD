@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MSLoadingHUD'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MSLoadingHUD.'
+  s.summary          = 'A simple, easy to use loading HUD'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A simple swift for your iOS view controllers to easily show a loading HUD with or without a loading message.
                        DESC
 
   s.homepage         = 'https://github.com/Marco Siino/MSLoadingHUD'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Marco Siino' => 'marco.siino@skylabs.it' }
-  s.source           = { :git => 'https://github.com/Marco Siino/MSLoadingHUD.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Marco Siino' => 'siino.marco@gmail.com' }
+  s.source           = { :git => 'https://github.com/marcosiino/MSLoadingHUD.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'MSLoadingHUD/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MSLoadingHUD' => ['MSLoadingHUD/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
