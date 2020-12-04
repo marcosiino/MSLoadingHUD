@@ -29,13 +29,13 @@ Add the Loadable trait to your view controller by declaring its conformance to t
 class MyViewController: UIViewController, Loadable { ...
 ```
 
-Then you can use the showLoadingHUD and hideLoadingHUD methods to show and hide the loading HUD. The first method accepts an optional loadingMessage argument, which if it's specified, a message will be shown below the loading indicator.
+Then you can use the `showLoadingHUD` and `hideLoadingHUD` methods within your view controller's class to show and hide the loading HUD. The first method accepts an optional `loadingMessage` argument, which if it's specified, a message will be shown below the loading indicator.
 
 That's it!
 
 ## Author
 
-Marco Siino, siino.marco@gmail.com
+Marco Siino, siino.marco [**] gmail.com
 
 ## License
 
