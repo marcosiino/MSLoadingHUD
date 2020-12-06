@@ -2,6 +2,13 @@
 
 ## Next version
 
+### Fixes
+
+- Fixed a problem which caused the loading hud not being hide in some cases
+
+
+## Ver. 0.2.0 - 2020-12-04
+
 ### Changed
 
 - showLoadingHUD method now automatically hides any previous shown loading huds
