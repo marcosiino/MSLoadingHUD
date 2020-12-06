@@ -1,6 +1,13 @@
 # Changelog
 
-## 0.3.0 - 2020-12-04
+## 0.3.1 - 2020-12-06
+
+### Fixes
+
+- Fixed a problem which caused the loading hud not being hide in some cases
+
+
+## Ver. 0.3.0 - 2020-12-06
 
 ### Changed
 
