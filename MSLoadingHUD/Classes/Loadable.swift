@@ -78,13 +78,9 @@ public extension Loadable where Self: UIViewController {
             }
         }
         
-        if Thread.isMainThread {
+        //execute after a small amount of time for two reasons: 1) if the hud is shown and hidden at the same time, it is a bad UI experience to show it and hide instantaneously. 2) If the hud is shown and hidden at the same time, when the hideLoadingHUD is called the OS may not have still presented the HUD from the previous showLoadingHUD call, and this would cause the hud will never be hidden
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2, execute: {
             exec()
-        }
-        else {
-            DispatchQueue.main.sync {
-            exec()
-            }
-        }
+        })
     }
 }
