@@ -24,9 +24,9 @@ class ViewController: UIViewController, Loadable {
     
     @IBAction func simulateTask() {
         showLoadingHUD(loadingMessage: "Loading...")
-        DispatchQueue.main.async {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0, execute: {
             self.hideLoadingHUD()
-        }
+        })
     }
 
 }
