@@ -50,18 +50,6 @@ Then you can use the `showLoadingHUD` and `hideLoadingHUD` methods within your v
 
 Calling `showLoadingHUD` will cause any previous presented loading HUD to be hide before presenting the new one.
 
-### Show/hide completion closure
-
-You can use the optional completion parameter in both the above methods to know when the loading HUD has been presented or dismissed. 
-
-This may be helpful if you want to present another viewcontroller after the loading hud is dismissed, for example an UIAlertViewController:
-
-```swift
-hideLoadingHUD {
-    presentAlertController()
-}
-```
-
 That's it!
 
 ## Author
