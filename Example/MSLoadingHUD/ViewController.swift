@@ -25,7 +25,12 @@ class ViewController: UIViewController, Loadable {
     @IBAction func simulateTask() {
         showLoadingHUD(loadingMessage: "Loading...")
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) { [weak self] in
-            self?.hideLoadingHUD()
+            
+                self?.showLoadingHUD(loadingMessage: "Loading 2...")
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) { [weak self] in
+                    self?.hideLoadingHUD()
+                }
+            
         }
     }
 
